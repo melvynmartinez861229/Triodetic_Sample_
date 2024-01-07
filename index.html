@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="initial-scale=1.0, viewport-fit=cover" />
+    <title>Vitesse - AIR-008</title>
+  </head>
+  <body class="dark-theme">
+    <div class="experience">
+      <canvas class="experience-canvas"></canvas>
+    </div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="preloader-wrapper">
+        <div class="loading">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page" asscroll-container>
+
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="navbar-left">
+          <a class="navbar-brand" href="">Triodetic</a>
+        </div>
+        <div class="navbar-right">
+          <div class="toggle-bar">
+            <div class="sun-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M12 15q1.25 0 2.125-.875T15 12q0-1.25-.875-2.125T12 9q-1.25 0-2.125.875T9 12q0 1.25.875 2.125T12 15Zm0 2q-2.075 0-3.537-1.463Q7 14.075 7 12t1.463-3.538Q9.925 7 12 7t3.538 1.462Q17 9.925 17 12q0 2.075-1.462 3.537Q14.075 17 12 17ZM2 13q-.425 0-.712-.288Q1 12.425 1 12t.288-.713Q1.575 11 2 11h2q.425 0 .713.287Q5 11.575 5 12t-.287.712Q4.425 13 4 13Zm18 0q-.425 0-.712-.288Q19 12.425 19 12t.288-.713Q19.575 11 20 11h2q.425 0 .712.287.288.288.288.713t-.288.712Q22.425 13 22 13Zm-8-8q-.425 0-.712-.288Q11 4.425 11 4V2q0-.425.288-.713Q11.575 1 12 1t.713.287Q13 1.575 13 2v2q0 .425-.287.712Q12.425 5 12 5Zm0 18q-.425 0-.712-.288Q11 22.425 11 22v-2q0-.425.288-.712Q11.575 19 12 19t.713.288Q13 19.575 13 20v2q0 .425-.287.712Q12.425 23 12 23ZM5.65 7.05 4.575 6q-.3-.275-.288-.7.013-.425.288-.725.3-.3.725-.3t.7.3L7.05 5.65q.275.3.275.7 0 .4-.275.7-.275.3-.687.287-.413-.012-.713-.287ZM18 19.425l-1.05-1.075q-.275-.3-.275-.712 0-.413.275-.688.275-.3.688-.287.412.012.712.287L19.425 18q.3.275.288.7-.013.425-.288.725-.3.3-.725.3t-.7-.3ZM16.95 7.05q-.3-.275-.287-.688.012-.412.287-.712L18 4.575q.275-.3.7-.288.425.013.725.288.3.3.3.725t-.3.7L18.35 7.05q-.3.275-.7.275-.4 0-.7-.275ZM4.575 19.425q-.3-.3-.3-.725t.3-.7l1.075-1.05q.3-.275.713-.275.412 0 .687.275.3.275.288.688-.013.412-.288.712L6 19.425q-.275.3-.7.287-.425-.012-.725-.287ZM12 12Z"/></svg>
+            </div>
+            <button class="toggle-button">
+              <div class="toggle-circle"></div>
+            </button>
+            <div class="moon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M12 21q-3.75 0-6.375-2.625T3 12q0-3.75 2.625-6.375T12 3q.35 0 .688.025.337.025.662.075-1.025.725-1.637 1.887Q11.1 6.15 11.1 7.5q0 2.25 1.575 3.825Q14.25 12.9 16.5 12.9q1.375 0 2.525-.613 1.15-.612 1.875-1.637.05.325.075.662Q21 11.65 21 12q0 3.75-2.625 6.375T12 21Zm0-2q2.2 0 3.95-1.212 1.75-1.213 2.55-3.163-.5.125-1 .2-.5.075-1 .075-3.075 0-5.238-2.162Q9.1 10.575 9.1 7.5q0-.5.075-1t.2-1q-1.95.8-3.162 2.55Q5 9.8 5 12q0 2.9 2.05 4.95Q9.1 19 12 19Zm-.25-6.75Z"/></svg>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="page-wrapper" asscroll>
+
+        <!-- Hero Section -->
+
+        <section class="hero">
+          <div class="hero-wrapper">
+
+            <!-- Intro -->
+            <div class="intro-text">TRIODETIC</div>
+            <div class="arrow-svg-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M12 14.95q-.2 0-.375-.063-.175-.062-.325-.212L6.675 10.05q-.275-.275-.262-.688.012-.412.287-.687.275-.275.7-.275.425 0 .7.275l3.9 3.9 3.925-3.925q.275-.275.688-.263.412.013.687.288.275.275.275.7 0 .425-.275.7l-4.6 4.6q-.15.15-.325.212-.175.063-.375.063Z"/></svg>
+            </div>
+
+            <div class="hero-main">
+              <h1 class="hero-main-title">CUSTOM-ENGINEERED</h1>
+              <p class="hero-main-description">INDUSTRIAL DOMES, SPACE FRAMES, AND FREE-FORM STRUCTURES</p>
+            </div>
+
+            <div class="hero-second">
+              <p class="hero-second-subheading first-sub"></p>
+              <p class="hero-second-subheading second-sub"></p>
+            </div>
+          </div>
+        </section>
+
+        <!-- First Section -->
+
+        <div class="first-move section-margin"></div>
+
+        <section class="first-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar"></div>
+          </div>
+
+          <div class="section-intro-wrapper">
+            <h2 class="section-title">
+              <span class="section-title-text">Over 60 Years of Engineering Structural Innovation</span>
+            </h2>
+            <span class="section-number">01</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <img class="section-image" src="/images/structureType_IndustrialDomes.webp" alt="Cockpit picture">
+            <h3 class="section-heading">INDUSTRIAL DOMES</h3>
+            <p class="section-text">Triodetic’s industrial domes are recognized for their striking design and adaptability, serving diverse industries to protect equipment and store materials, while reducing dust pollution and explosion risks. With efficient assembly methods and a legacy of engineering excellence, our industrial domes stand as a symbol of innovation and efficiency.</p>
+            <h3 class="section-heading">Lorem</h3>
+            <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquam aperiam, nisi impedit accusantium eaque neque nulla libero quam dolorum numquam. Dolorem, cupiditate ab voluptates quo molestiae quibusdam ipsa reprehenderit?</p>
+            <h3 class="section-heading">Lorem</h3>
+            <p class="section-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, magnam. Fugit hic aspernatur soluta quas distinctio, repellendus, natus possimus cupiditate quos numquam minima! Blanditiis architecto vitae, sit possimus accusantium eaque!</p>
+          </div>
+        </section>
+
+        <!-- Second Section -->
+
+        <div class="second-move section-margin"></div>
+
+        <section class="second-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar"></div>
+          </div>
+
+          <div class="section-intro-wrapper">
+            <h2 class="section-title">
+              <span class="section-title-text">ARCHITECTURAL (FREE-FORM STRUCTURES)</span>
+            </h2>
+            <span class="section-number">02</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <img class="section-image" src="/images/structureType_ArchitecturalDesign.webp" alt="Drivetain picture">
+            <h3 class="section-heading">SRAM Force AXS Powermeter</h3>
+            <p class="section-text">Triodetic excels in designing and constructing free-form structures using cladding or glazing, creating an affordable uniqueness where visual impact is desired. The curvature inherent to these structures not only enhances aesthetics but also results in more efficient structural behavior, leading to cost savings in frame mass and foundations.</p>
+            <h3 class="section-heading">Lorem</h3>
+            <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, incidunt ut quos quasi aliquam dolorem dicta eum eveniet, voluptates fugiat cum ducimus enim esse adipisci illo, libero quam repellendus debitis!</p>
+            <h3 class="section-heading">Lorem</h3>
+            <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam impedit provident aut eveniet beatae magni quis doloribus itaque fugit consequuntur? Vitae tempora ullam labore inventore aut, magnam harum explicabo mollitia!</p>
+          </div>
+        </section>
+
+        <!-- Third Section -->
+
+        <div class="third-move section-margin"></div>
+
+        <section class="third-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar"></div>
+          </div>
+
+          <div class="section-intro-wrapper">
+            <h2 class="section-title">
+              <span class="section-title-text">SPACE FRAMES</span>
+            </h2>
+            <span class="section-number">03</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <img class="section-image" src="/images/structureType_SpecialApplications.webp" alt="Bike picture">
+            <h3 class="section-heading">SPACE FRAMES</h3>
+            <p class="section-text">Space frames are visually striking and economical structures with applications ranging from arenas, transport terminals, convention centers to entertainment facilities. With long clear spans, lightweight design, and adaptability, they excel in accommodating loads and adapting to various support configurations. Triodetic’s space frames represent innovation and practicality in structural design.</p>
+            <h3 class="section-heading">Lorem</h3>
+            <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, totam modi blanditiis natus quos quam, numquam nesciunt doloribus sit ullam quis harum officia. Atque ad, nisi aliquid ex alias quod!</p>
+          </div>
+        </section>
+
+        <!-- Fourth Section -->
+
+        <div class="fourth-move section-margin"></div>
+
+        <section class="fourth-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar"></div>
+          </div>
+
+          <div class="section-intro-wrapper">
+            <h2 class="section-title">
+              <span class="section-title-text">About.</span>
+            </h2>
+            <span class="section-number">04</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Triodetic</h3>
+            <p class="section-text">This fictive project was created to showcase my current skills using Three.js and GSAP. <br>
+              Last update: 23 Aug 2022</p>
+            <h3 class="section-heading">Special Thanks to:</h3>
+           
+            <h3 class="section-heading"></h3>
+           
+          </div>
+
+          <footer>
+            <div>© 2023 - <a class="footer-link" href="https://triodetic.com/">Triodetic</a></div>
+            <div class="socials">
+              <a class="footer-link" href="https://www.facebook.com/profile.php?id=100067886377244">facebook</a>
+              <a class="footer-link" href="https://twitter.com/TrioFoundation">twitter</a>
+              <a class="footer-link" href="https://www.linkedin.com/company/triodeticdomes/">linkedin</a>
+            </div>
+          </footer>
+        </section>
+      </div>
+
+      <!-- Debug -->
+      <div class="debug"></div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
